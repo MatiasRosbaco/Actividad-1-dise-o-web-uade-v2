@@ -1,41 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-  <style>
-    ul {
-      display: inline-block;
-      text-align: left;
-    }
-  </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — Matias Rosbaco</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="#c0c0c0">
-  <header>
-    <nav align="center">
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="intereses.html">intereses</a></li>
-        <li><a href="contacto.html">contacto</a></li>
-      </ul>
-    </nav>
-    <hr>
-  </header>
+<body>
 
-  <main align="center">
-    <h1><font color="navy">Contactame</font></h1>
-    <p>
-      <a href="mailto:matiasrosbaco@email.com">matiasrosbaco@email.com</a>
-    </p>
+  <nav>
+    <a href="index.html" class="nav-brand">MR</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="intereses.html">Intereses</a></li>
+      <li><a href="contacto.html" class="active">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="section">
+      <p class="label">Contacto</p>
+
+      <div style="margin-bottom: 3rem;">
+        <h1 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.8rem;">
+          Hablemos
+        </h1>
+        <p style="color: var(--muted); max-width: 480px;">
+          Abierto a proyectos, propuestas y colaboraciones.
+        </p>
+      </div>
+
+      <div class="contact-list">
+
+        <a href="mailto:mati.rosbaco@gmail.com" class="contact-item">
+          <div>
+            <p class="contact-item-label">Email</p>
+            <p class="contact-item-value">mati.rosbaco@gmail.com</p>
+          </div>
+        </a>
+
+        <a href="tel:+5491131144656" class="contact-item">
+          <div>
+            <p class="contact-item-label">Teléfono</p>
+            <p class="contact-item-value">+54 9 11 3114-4656</p>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/matias-rosbaco-bertrand-19500a207/" target="_blank" class="contact-item">
+          <div>
+            <p class="contact-item-label">LinkedIn</p>
+            <p class="contact-item-value">matias-rosbaco-bertrand</p>
+          </div>
+        </a>
+
+        <div class="contact-item" style="cursor: default;">
+          <div>
+            <p class="contact-item-label">Ubicación</p>
+            <p class="contact-item-value">Capital Federal, Buenos Aires</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
   </main>
 
-  <hr>
-
   <footer>
-    <p align="center">
-      <font size="2">Curso: Diseño Web - Jueves a la noche &nbsp;|&nbsp; 2do/3er año &nbsp;|&nbsp; UTN Ingenieria en Sistemas</font>
-    </p>
-    <p align="center">
-      <font size="1" color="gray">hecho por matias rosbaco - 2025</font>
-    </p>
+    Curso: Diseño Web · Jueves a la noche · UTN Ingeniería en Sistemas &nbsp;|&nbsp;
+    <span>Matias Rosbaco</span> © 2025
   </footer>
 
 </body>

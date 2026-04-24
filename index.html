@@ -1,44 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Pagina de Matias</title>
-  <style>
-    ul {
-      display: inline-block;
-      text-align: left;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matias Rosbaco — Software Developer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="#c0c0c0">
+<body>
 
-  <header align="center">
-    <h1><font color="navy">Matias Rosbaco</font></h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="intereses.html">intereses</a></li>
-        <li><a href="contacto.html">contacto</a></li>
-      </ul>
-    </nav>
-    <hr>
-  </header>
+  <nav>
+    <a href="index.html" class="nav-brand">MR</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Inicio</a></li>
+      <li><a href="intereses.html">Intereses</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
 
-  <main align="center">
-    <img src="img/image_b8c8bed9.png" width="700" alt="mi infografia">
+  <main>
+
+    <!-- HERO -->
+    <div class="hero">
+      <p class="hero-eyebrow">Software Developer</p>
+      <h1>Matias<br>Rosbaco</h1>
+      <p class="hero-sub">
+        Desarrollador Salesforce y Fullstack con más de 5 años de experiencia.
+        Apasionado por las integraciones, la IA y las buenas interfaces.
+      </p>
+      <div class="hero-tags">
+        <span class="tag">Salesforce</span>
+        <span class="tag">Apex / LWC</span>
+        <span class="tag">React / Next.js</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">TypeScript</span>
+        <span class="tag">AI Projects</span>
+      </div>
+    </div>
+
+    <!-- INFOGRAFIA -->
+    <section class="section" style="padding-top: 0;">
+      <p class="label">Infografía</p>
+      <div style="border: 1px solid var(--border); border-radius: 12px; overflow: hidden;">
+        <img src="img/image_b8c8bed9.png" alt="Infografía Matias Rosbaco" style="width: 100%; display: block;">
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section">
+      <p class="label">Experiencia</p>
+      <div class="cards">
+
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Software Developer</span>
+            <span class="card-date">Ene 2026 — Presente</span>
+          </div>
+          <p class="card-company">Kubikware · Argentina (remoto)</p>
+          <p>Impulso el crecimiento de organizaciones de salud en EE. UU. combinando desarrollo de software con automatización avanzada. Diseño flujos complejos en GoHighLevel y ClickUp, integro herramientas críticas via Zapier y Kerago, y construyo data warehouses con reportes en Data Studio.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Salesforce Developer &amp; Technical Lead</span>
+            <span class="card-date">Jun 2025 — Ene 2026</span>
+          </div>
+          <p class="card-company">Rosbaco &amp; Partners</p>
+          <p>Lidero proyectos de IT e IA, optimizo procesos internos e integro áreas de negocio con el ecosistema Salesforce. También gestiono el sitio web de la empresa.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Salesforce Developer &amp; Fullstack Engineer</span>
+            <span class="card-date">May 2023 — May 2025</span>
+          </div>
+          <p class="card-company">Kubikware — Furnished Quarters</p>
+          <p>Desarrollé en Apex y LWC, trabajé en visualización de datos críticos y contribuí al sitio web del cliente como fullstack engineer con Next.js y React.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Salesforce Developer</span>
+            <span class="card-date">Ago 2019 — Feb 2023</span>
+          </div>
+          <p class="card-company">Rosbaco &amp; Partners</p>
+          <p>Desarrollé soluciones completas con Apex, Visualforce y Aura Components. Lideré un equipo de desarrollo y construí REST APIs con Node.js.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" style="padding-top: 0;">
+      <p class="label">Skills</p>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Salesforce</h3>
+          <ul>
+            <li>Apex</li><li>LWC</li><li>Aura</li><li>Visualforce</li>
+            <li>Flows</li><li>Vlocity</li><li>REST APIs</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Frontend &amp; Web</h3>
+          <ul>
+            <li>React</li><li>Next.js</li><li>TypeScript</li>
+            <li>HTML</li><li>CSS</li><li>AngularJS</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js</li><li>Nest.js</li><li>Express</li>
+            <li>Java</li><li>Spring Boot</li><li>Python</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Bases de datos</h3>
+          <ul>
+            <li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li>
+            <li>GraphQL</li><li>Prisma</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <hr>
-
   <footer>
-    <p align="center">
-      <font size="2">
-        Curso: Diseño Web - Jueves a la noche &nbsp;|&nbsp; 2do/3er año &nbsp;|&nbsp; UTN Ingenieria en Sistemas
-      </font>
-    </p>
-    <p align="center">
-      <font size="1" color="gray">hecho por matias rosbaco - 2025</font>
-    </p>
-    <p align="center">Todos los derechos reservados</p>
+    Curso: Diseño Web · Jueves a la noche · UTN Ingeniería en Sistemas &nbsp;|&nbsp;
+    <span>Matias Rosbaco</span> © 2025
   </footer>
 
 </body>
